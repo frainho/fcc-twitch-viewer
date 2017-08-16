@@ -1,0 +1,98 @@
+/* color-scheme http://paletton.com/#uid=34n0u0kluumbNLphbAuqgrYsNm1 */
+
+body {
+  font-family: 'Raleway', sans-serif;
+   background-image: url("https://static1.squarespace.com/static/587acf0b59cc68c821b21f54/t/587b1e031b631b453a3c8db1/1484463621303/twitch+logo+background.jpg?format=1500w");
+  background-color:#939DD8;
+}
+
+h1 {
+  display: inline-block;
+  color:white;
+}
+
+/* spacing */
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  border: 3px solid #8161BC;
+  background-color: #6441A5; 
+  color:white;
+  margin:auto;
+  text-align:center;
+}
+
+thead {
+  background-color: #391678;
+}
+
+thead th:nth-child(1) {
+  width: 20%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 20%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+.offlineRow {
+  background-color:#4F2798;
+}
+
+a {
+  color: #DCED4E;
+}
+
+a:hover {
+  color: #F2FC9F;
+}
+
+a:active {
+  color: #9BAC11;
+}
+
+button {
+  background-color:#A657B7;
+  color:white;
+  border: 0;
+  float:right;
+  display: inline-block;
+  margin: 15px;
+  padding:15px;
+}
+
+#signOff {
+  text-align:center;
+  color:white;
+}
+
+hr {
+  margin-top: 300px;
+  width:25%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 700px) {
+  
+  hr {
+  margin-top: 300px;
+  width:50%;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+  hr {
+  margin-top: 300px;
+  width:75%;
+}
+}
